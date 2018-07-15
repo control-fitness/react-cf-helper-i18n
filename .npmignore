@@ -3,3 +3,4 @@ src/
 .gitignore
 .babelrc
 .DS_Store
+.eslintrc.json
