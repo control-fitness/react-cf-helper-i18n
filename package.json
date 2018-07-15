@@ -1,0 +1,22 @@
+{
+  "name": "react-cf-helper-i18n",
+  "version": "0.0.1",
+  "description": "Control Fitness helper of internationalization.",
+  "main": "index.js",
+  "repository": "https://github.com/control-fitness/react-cf-helper-i18n.git",
+  "author": "Paulo McNally <paulomcnally@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d dist",
+    "clean": "rm -rf dist",
+    "dist": "yarn run clean && yarn run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "js-cookie": "^2.2.0"
+  }
+}
