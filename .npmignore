@@ -4,3 +4,5 @@ src/
 .babelrc
 .DS_Store
 .eslintrc.json
+test/
+.travis.yml
