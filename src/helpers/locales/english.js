@@ -24,5 +24,29 @@ module.exports = {
         }
       }
     }
+  },
+  masterData: {
+    countries: {
+      list: {
+        gtm: 'Guatemala',
+        slv: 'El Salvador',
+        hnd: 'Honduras',
+        nic: 'Nicaragua',
+        cri: 'Costa Rica',
+        pan: 'Panama',
+        usa: 'United States'
+      }
+    },
+    currencies: {
+      list: {
+        gtq: 'Guatemalan quetzal',
+        svc: 'Salvadoran Columbus',
+        hnl: 'Honduran lempira',
+        nio: 'Nicaraguan córdoba',
+        crc: 'Costa Rican colón',
+        pab: 'Panamanian balboa',
+        usd: 'United States dollar'
+      }
+    }
   }
 }
