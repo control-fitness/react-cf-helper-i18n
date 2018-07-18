@@ -25,6 +25,14 @@ module.exports = {
       }
     }
   },
+  form: {
+    buttons: {
+      back: 'Volver',
+      cancel: 'Cancelar',
+      next: 'Siguiente',
+      save: 'Guardar'
+    }
+  },
   masterData: {
     countries: {
       list: {
