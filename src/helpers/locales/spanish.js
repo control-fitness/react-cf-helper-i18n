@@ -39,13 +39,13 @@ module.exports = {
     },
     currencies: {
       list: {
-        gtq: 'Quetzal guatemalteco',
-        svc: 'Colón salvadoreño',
-        hnl: 'Lempira hondureño',
-        nio: 'Córdoba nicaragüense',
-        crc: 'Colón costarricense',
-        pab: 'Balboa panameño',
-        usd: 'Dólar estadounidense'
+        gtq: 'Quetzal guatemalteco - GTQ',
+        svc: 'Colón salvadoreño - SVC',
+        hnl: 'Lempira hondureño - HNL',
+        nio: 'Córdoba nicaragüense - NIO',
+        crc: 'Colón costarricense - CRC',
+        pab: 'Balboa panameño - PAB',
+        usd: 'Dólar estadounidense - USD'
       }
     }
   }
