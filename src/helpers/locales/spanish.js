@@ -22,6 +22,9 @@ module.exports = {
           email: 'Correo electrónico',
           password: 'Contraseña'
         }
+      },
+      terms: {
+        label: 'Estoy de acuerdo con los términos y condiciones'
       }
     }
   },
@@ -55,6 +58,14 @@ module.exports = {
         pab: 'Balboa panameño - PAB',
         usd: 'Dólar estadounidense - USD'
       }
+    }
+  },
+  policies: {
+    privacy: {
+      title: 'Política de Privacidad'
+    },
+    terms: {
+      title: 'Condiciones del servicio'
     }
   }
 }
