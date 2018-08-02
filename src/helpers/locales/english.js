@@ -28,6 +28,22 @@ module.exports = {
       }
     }
   },
+  validates: {
+    errors: {
+      messages: {
+        blank: 'Can\'t be blank.',
+        empty: 'Can\'t be empty',
+        confirmation: 'Doesn\'t match.',
+        equalTo: 'Must be equal to _count_.',
+        greaterThan: 'Must be greater than _count_',
+        greaterThanOrEqualTo: 'Must be greater than or equal to _count_',
+        invalid: 'Is invalid.',
+        lessThan: 'Must be less than _count_',
+        lessThanOrEqualTo: 'Must be less than or equal to _count_',
+        required: 'Must exist.',
+      },
+    },
+  },
   form: {
     buttons: {
       back: 'Back',
