@@ -31,6 +31,7 @@ module.exports = {
   validates: {
     errors: {
       messages: {
+        accepted: 'Must be accepted.',
         blank: 'Can\'t be blank.',
         empty: 'Can\'t be empty',
         confirmation: 'Doesn\'t match.',
