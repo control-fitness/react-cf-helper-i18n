@@ -49,6 +49,7 @@ module.exports = {
     buttons: {
       back: 'Back',
       cancel: 'Cancel',
+      goToStart: 'Go to start',
       next: 'Next',
       save: 'Save'
     }
