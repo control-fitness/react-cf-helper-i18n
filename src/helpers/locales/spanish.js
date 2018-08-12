@@ -26,22 +26,22 @@ module.exports = {
       terms: {
         label: 'Estoy de acuerdo con los términos y condiciones'
       }
-    }
-  },
-  validates: {
-    errors: {
-      messages: {
-        accepted: 'Debe ser aceptado.',
-        blank: 'No puede estar en blanco.',
-        empty: 'No puede estar vacío.',
-        confirmation: 'No coincide.',
-        equalTo: 'Debe ser igual a _count_.',
-        greaterThan: 'Debe ser mayor que _count_',
-        greaterThanOrEqualTo: 'Debe ser mayor que o igual a _count_',
-        invalid: 'No es válido',
-        lessThan: 'Debe ser menor que _count_',
-        lessThanOrEqualTo: 'Debe ser menor que o igual a _count_',
-        required: 'Debe existir',
+    },
+    validates: {
+      errors: {
+        messages: {
+          accepted: 'Debe ser aceptado.',
+          blank: 'No puede estar en blanco.',
+          empty: 'No puede estar vacío.',
+          confirmation: 'No coincide.',
+          equalTo: 'Debe ser igual a _count_.',
+          greaterThan: 'Debe ser mayor que _count_',
+          greaterThanOrEqualTo: 'Debe ser mayor que o igual a _count_',
+          invalid: 'No es válido',
+          lessThan: 'Debe ser menor que _count_',
+          lessThanOrEqualTo: 'Debe ser menor que o igual a _count_',
+          required: 'Debe existir',
+        },
       },
     },
   },
@@ -76,6 +76,10 @@ module.exports = {
         usd: 'Dólar estadounidense - USD'
       }
     }
+  },
+  notFound: {
+    message: 'Al parecer estas intentando cargar una página que no existe.',
+    title: 'La página no existe'
   },
   policies: {
     privacy: {

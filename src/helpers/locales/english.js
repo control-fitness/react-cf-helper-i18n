@@ -26,22 +26,22 @@ module.exports = {
       terms: {
         label: 'I agree to the Terms and Conditions'
       }
-    }
-  },
-  validates: {
-    errors: {
-      messages: {
-        accepted: 'Must be accepted.',
-        blank: 'Can\'t be blank.',
-        empty: 'Can\'t be empty',
-        confirmation: 'Doesn\'t match.',
-        equalTo: 'Must be equal to _count_.',
-        greaterThan: 'Must be greater than _count_',
-        greaterThanOrEqualTo: 'Must be greater than or equal to _count_',
-        invalid: 'Is invalid.',
-        lessThan: 'Must be less than _count_',
-        lessThanOrEqualTo: 'Must be less than or equal to _count_',
-        required: 'Must exist.',
+    },
+    validates: {
+      errors: {
+        messages: {
+          accepted: 'Must be accepted.',
+          blank: 'Can\'t be blank.',
+          empty: 'Can\'t be empty',
+          confirmation: 'Doesn\'t match.',
+          equalTo: 'Must be equal to _count_.',
+          greaterThan: 'Must be greater than _count_',
+          greaterThanOrEqualTo: 'Must be greater than or equal to _count_',
+          invalid: 'Is invalid.',
+          lessThan: 'Must be less than _count_',
+          lessThanOrEqualTo: 'Must be less than or equal to _count_',
+          required: 'Must exist.',
+        },
       },
     },
   },
@@ -76,6 +76,10 @@ module.exports = {
         usd: 'United States dollar - USD'
       }
     }
+  },
+  notFound: {
+    message: 'You seem to be trying to load a page that does not exist.',
+    title: 'The page does not exist'
   },
   policies: {
     privacy: {
