@@ -49,9 +49,35 @@ module.exports = {
     buttons: {
       back: 'Volver',
       cancel: 'Cancelar',
+      createAnAccount: 'Crear una cuenta',
+      enter: 'Entrar',
       goToStart: 'Ir al inicio',
       next: 'Siguiente',
       save: 'Guardar'
+    }
+  },
+  home: {
+    section: {
+      title: 'Software de gestión empresarial.',
+      message: 'Si es un estudio de yoga, gimnasio, spa o salón, obtenga todo lo necesario para administrar y hacer crecer su negocio.'
+    },
+    features: {
+      customers: {
+        title: 'Clientes',
+        description: 'Administra los perfiles de tus clientes.'
+      },
+      billing: {
+        title: 'Facturación',
+        description: 'Podrás llevar un control de los pagos que hagan tus clientes, aplicar descuentos.'
+      },
+      disciplines: {
+        title: 'Disciplinas',
+        description: 'Disciplinas que tienes disponible en tu centro de entrenamientos físicos.'
+      },
+      schedule: {
+        title: 'Horarios',
+        description: 'Los horarios permiten a tus clientes saber la disponibilidad de clases.'
+      }
     }
   },
   masterData: {

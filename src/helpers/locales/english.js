@@ -49,9 +49,35 @@ module.exports = {
     buttons: {
       back: 'Back',
       cancel: 'Cancel',
+      createAnAccount: 'Create an account',
+      enter: 'Enter',
       goToStart: 'Go to start',
       next: 'Next',
       save: 'Save'
+    }
+  },
+  home: {
+    section: {
+      title: 'Business management software.',
+      message: `If it's a yoga studio, gym, spa or salon, get everything you need to manage and grow your business.`
+    },
+    features: {
+      customers: {
+        title: 'Customers',
+        description: 'Manage the profiles of your clients.'
+      },
+      billing: {
+        title: 'Billing',
+        description: 'You can keep track of the payments made by your customers, apply discounts.'
+      },
+      disciplines: {
+        title: 'Disciplines',
+        description: 'Disciplines that you have available in your physical training center.'
+      },
+      schedule: {
+        title: 'Schedule',
+        description: 'The schedules allow your customers to know the availability of classes.'
+      }
     }
   },
   masterData: {
