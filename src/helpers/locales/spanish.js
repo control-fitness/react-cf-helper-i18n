@@ -62,6 +62,7 @@ module.exports = {
       message: 'Si es un estudio de yoga, gimnasio, spa o salón, obtenga todo lo necesario para administrar y hacer crecer su negocio.'
     },
     features: {
+      title: 'Características',
       customers: {
         title: 'Clientes',
         description: 'Administra los perfiles de tus clientes.'

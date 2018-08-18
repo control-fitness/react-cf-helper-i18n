@@ -62,6 +62,7 @@ module.exports = {
       message: `If it's a yoga studio, gym, spa or salon, get everything you need to manage and grow your business.`
     },
     features: {
+      title: 'Features',
       customers: {
         title: 'Customers',
         description: 'Manage the profiles of your clients.'
