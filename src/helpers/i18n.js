@@ -2,6 +2,16 @@ import cookies from 'js-cookie';
 import config from './config';
 import locales from './locales';
 
+/**
+ * Set cookies if don't exists
+ */
+if (cookies.get(config.cookie.locale.name) === undefined) {
+  const cookiesOptions = {
+    expires: 365,
+  };
+  Cookies.set(config.cookie.locale.name, config.cookie.locale.default, cookiesOptions);
+}
+
 const options = {
   locale: cookies.get(config.cookie.locale.name) || config.cookie.locale.default,
 };
