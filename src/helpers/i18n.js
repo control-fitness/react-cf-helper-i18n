@@ -9,7 +9,7 @@ if (cookies.get(config.cookie.locale.name) === undefined) {
   const cookiesOptions = {
     expires: 365,
   };
-  Cookies.set(config.cookie.locale.name, config.cookie.locale.default, cookiesOptions);
+  cookies.set(config.cookie.locale.name, config.cookie.locale.default, cookiesOptions);
 }
 
 const options = {
