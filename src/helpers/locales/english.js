@@ -29,6 +29,9 @@ module.exports = {
     },
     validates: {
       errors: {
+        headers: {
+          validationFailed: 'Validation failed'
+        },
         messages: {
           accepted: 'Must be accepted.',
           blank: 'Can\'t be blank.',
