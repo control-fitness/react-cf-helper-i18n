@@ -27,26 +27,6 @@ module.exports = {
         label: 'Estoy de acuerdo con los términos y condiciones'
       }
     },
-    validates: {
-      errors: {
-        headers: {
-          validationFailed: 'La validación falló'
-        },
-        messages: {
-          accepted: 'Debe ser aceptado.',
-          blank: 'No puede estar en blanco.',
-          empty: 'No puede estar vacío.',
-          confirmation: 'No coincide.',
-          equalTo: 'Debe ser igual a _count_.',
-          greaterThan: 'Debe ser mayor que _count_',
-          greaterThanOrEqualTo: 'Debe ser mayor que o igual a _count_',
-          invalid: 'No es válido',
-          lessThan: 'Debe ser menor que _count_',
-          lessThanOrEqualTo: 'Debe ser menor que o igual a _count_',
-          required: 'Debe existir',
-        },
-      },
-    },
   },
   form: {
     buttons: {
@@ -119,5 +99,25 @@ module.exports = {
     terms: {
       title: 'Condiciones del servicio'
     }
-  }
+  },
+  validates: {
+    errors: {
+      headers: {
+        validationFailed: 'La validación falló'
+      },
+      messages: {
+        accepted: 'Debe ser aceptado.',
+        blank: 'No puede estar en blanco.',
+        empty: 'No puede estar vacío.',
+        confirmation: 'No coincide.',
+        equalTo: 'Debe ser igual a _count_.',
+        greaterThan: 'Debe ser mayor que _count_',
+        greaterThanOrEqualTo: 'Debe ser mayor que o igual a _count_',
+        invalid: 'No es válido',
+        lessThan: 'Debe ser menor que _count_',
+        lessThanOrEqualTo: 'Debe ser menor que o igual a _count_',
+        required: 'Debe existir',
+      },
+    },
+  },
 }
