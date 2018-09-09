@@ -1,6 +1,5 @@
 import cookies from 'js-cookie';
 import config from './config';
-import locales from './locales';
 
 /**
  * Set cookies if don't exists

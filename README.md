@@ -2,6 +2,8 @@
 
 Control Fitness helper of internationalization.
 
+> Require https://github.com/control-fitness/react-cf-data-locales
+
 ### Example
 
     import I18n from 'react-cf-helper-i18n';
