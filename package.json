@@ -9,12 +9,15 @@
   "scripts": {
     "build": "babel src -d dist",
     "clean": "rm -rf dist",
-    "dist": "yarn run clean && yarn run build"
+    "dist": "yarn run clean && yarn run build",
+    "test": "yarn run dist && ./node_modules/.bin/mocha"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
   },
   "dependencies": {
     "js-cookie": "^2.2.0"

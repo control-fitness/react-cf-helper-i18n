@@ -46,8 +46,11 @@ class I18n {
   * @return {[type]} [description]
   */
   t(key) {
-    const l = locales || {};
-    return this.getKey(key, l[options.locale]);
+    if (typeof locales === 'undefined') {
+      return 'Undefined locale';
+    } else {
+      return this.getKey(key, locales[options.locale]);
+    }
   }
 
 }
