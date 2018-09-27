@@ -1,6 +1,6 @@
 {
   "name": "react-cf-helper-i18n",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Control Fitness helper of internationalization.",
   "main": "index.js",
   "repository": "https://github.com/control-fitness/react-cf-helper-i18n.git",
