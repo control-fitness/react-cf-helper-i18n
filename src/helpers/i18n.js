@@ -46,7 +46,8 @@ class I18n {
   * @return {[type]} [description]
   */
   t(key) {
-    return this.getKey(key, locales[options.locale]);
+    const l = locales || {};
+    return this.getKey(key, l[options.locale]);
   }
 
 }
